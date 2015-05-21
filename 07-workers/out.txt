@@ -3,15 +3,12 @@ Je tourne dans le thread principal
 Je tourne dans le thread principal
 Je tourne dans le thread principal
 Je tourne dans le thread principal
-Je tourne dans le thread principal
-Je tourne dans le thread principal
-Je tourne dans le thread principal
 
 Worker said : Worker ready
 
-Worker said : Maintenant:Thu May 21 2015 11:52:19 GMT+0200 (CEST)
+Worker said : Maintenant:Thu May 21 2015 14:09:39 GMT+0200 (CEST)
 
-Worker said : Fin:Thu May 21 2015 11:52:21 GMT+0200 (CEST)
+Worker said : Fin:Thu May 21 2015 14:09:42 GMT+0200 (CEST)
 
 
-Thread terminé en 2.587sec
+Thread terminé en 2.641sec

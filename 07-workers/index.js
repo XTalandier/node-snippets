@@ -12,7 +12,7 @@ var worker = new Worker(function () {
             while (true) {
                 if (++cpt == 999999999) {
                     postMessage({msg: "Fin:" + (new Date())});
-                    self.close();
+                    this.close();
                     postMessage({
                         msg: 'DONE',
                         value: cpt,
@@ -28,7 +28,7 @@ worker.onmessage = function (event) {
     if (event.data.msg == 'DONE') {
         console.log('\n\nThread terminé en ' + (event.data.duration / 1000) + 'sec');
         clearInterval(int);
-        process.exit();
+        //process.exit();
     } else {
         console.log("\nWorker said : " + event.data.msg);
     }
@@ -38,4 +38,4 @@ worker.postMessage('run');
 
 var int = setInterval(function(){
     console.log('Je tourne dans le thread principal');
-}, 300);
+}, 500);
