@@ -1,4 +1,4 @@
-var Vehicule = require('./Vehicule');
+var Vehicule = require('./vehicule');
 
 
 var Voiture = function(){
