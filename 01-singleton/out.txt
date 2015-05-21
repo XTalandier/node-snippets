@@ -1,0 +1,3 @@
+index.js : 1
+sub.js : 2
+index.js : 3

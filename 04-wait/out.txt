@@ -1,0 +1,8 @@
+Tout est lancé !
+trucLong1: Check !
+trucLong2: Check !
+trucLong3: Check !
+
+
+
+OK c'est bon, tout est fait :)
