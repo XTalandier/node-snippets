@@ -1,0 +1,22 @@
+{
+  "name": "js-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XTalandier/node-snippets.git"
+  },
+  "author": "Xavier TALANDIER",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XTalandier/node-snippets/issues"
+  },
+  "homepage": "https://github.com/XTalandier/node-snippets#readme",
+  "dependencies": {
+    "webworker-threads": "^0.5.6"
+  }
+}
